@@ -22,23 +22,20 @@ To automate repetitive and critical user flows (navigation bar, cart, component 
 
 ## 📁 Project Structure
 
-\```
 src/
 ├── main/java/org/example/
 │   └── Main.java
 └── test/java/
-    ├── baseTest/
-    │   └── Basetest              # Shared setup/teardown (WebDriver init, config)
-    ├── pages/                    # Page Object classes
-    │   ├── ComponentPage
-    │   ├── HomePage
-    │   ├── NavBarCartBage
-    │   └── NavBarPage
-    └── tests/                    # TestNG test classes
-        ├── ComponentTests
-        └── navBarTest
-pom.xml
-\```
+├── baseTest/
+│   └── Basetest
+├── pages/
+│   ├── ComponentPage
+│   ├── HomePage
+│   ├── NavBarCartBage
+│   └── NavBarPage
+└── tests/
+├── ComponentTests
+└── navBarTest
 
 ## ▶️ How to Run
 ```bash
