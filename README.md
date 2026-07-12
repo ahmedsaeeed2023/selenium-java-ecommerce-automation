@@ -36,6 +36,8 @@ src/
 └── tests/
 ├── ComponentTests
 └── navBarTest
+pom.xml
+README.md
 
 ## ▶️ How to Run
 ```bash
